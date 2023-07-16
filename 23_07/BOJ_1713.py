@@ -17,20 +17,14 @@ def solution():
             else:
                 # 정렬(nlogn)하는 것보다 반복문(n)으로
                 # 삭제할 key를 찾는 것이 빠를 것 같아서 수정했으나 백준 결과는 차이 없음
-                # 사진틀의 수가 최대 20개로 작은 수 이므로 2nlogn(lambda 매개변수 2가지 정렬)과 2n의 차이가 미세하기 때문?
+                # 사진틀의 수가 최대 20개로 작은 수 이므로 nlogn과 n의 차이가 미세하기 때문?
                 # frame = dict(sorted(frame.items(), key=lambda x: (x[1][0], x[1][1])))
                 # target_key = list(frame.keys())[0]
-                # del frame[target_key]
                 target_key = None
                 for key in frame:
-                    if target_key is None:
-                        target_key = key
-                    if frame[target_key][0] > frame[key][0]:
-                        target_key = key
-                for key in frame:
-                    if frame[target_key][0] < frame[key][0]:
-                        continue
-                    if frame[target_key][1] > frame[key][1]:
+                    if (target_key is None or
+                            frame[target_key][0] > frame[key][0] or
+                            (frame[target_key][0] == frame[key][0] and frame[target_key][1] > frame[key][1])):
                         target_key = key
                 del frame[target_key]
                 frame[rec[i]] = [1, i]
