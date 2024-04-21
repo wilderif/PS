@@ -1,5 +1,5 @@
 # BOJ_13909
-# 골드바흐 파티션
+# 창문 닫기
 
 import sys
 inp = sys.stdin.readline
