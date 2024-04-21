@@ -10,7 +10,7 @@ def main():
     prime_check = [True for _ in range(max_val)]
     prime_check[0] = False
     prime_check[1] = False
-    for i in range(2, int(max_val ** 1 / 2) + 1):
+    for i in range(2, int(max_val ** (1 / 2)) + 1):
         if prime_check[i]:
             j = 2
             while i * j < max_val:
