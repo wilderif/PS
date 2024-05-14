@@ -47,4 +47,8 @@ int main() {
     cout << min(arr[n - 1][0], min(arr[n - 1][1], arr[n - 1][2]));
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

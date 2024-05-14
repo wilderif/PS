@@ -14,4 +14,8 @@ rl.on('line', function (line) {
     str = input[0];
     let arr = [...str];
     console.log(arr.join('\n'));
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

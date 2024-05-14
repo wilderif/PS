@@ -14,4 +14,8 @@ rl.on('line', function (line) {
     for (let i = 0; i < Number(input[0]); i++) {
         console.log('*'.repeat(i + 1));
     }
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

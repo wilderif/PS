@@ -12,4 +12,8 @@ rl.on('line', function (line) {
     input = line.split(' ');
 }).on('close', function () {
     console.log(`${Number(input[0])} + ${Number(input[1])} = ${Number(input[0]) + Number(input[1])}`);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

@@ -19,4 +19,8 @@ int main() {
     cout << n * (n - 1) * (n - 2) * (n - 3) / 24;
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

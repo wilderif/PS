@@ -19,4 +19,8 @@ rl.on('line', function (line) {
             process.stdout.write((c.toLowerCase()));
         }
     }
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

@@ -83,4 +83,8 @@ int main() {
     cout << max_res << ' ' << min_res;
     
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

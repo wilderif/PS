@@ -15,4 +15,8 @@ rl.on('line', function (line) {
     str2 = input[1];
     process.stdout.write(str1);
     process.stdout.write(str2);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

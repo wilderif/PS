@@ -29,4 +29,8 @@ int main() {
     cout << arr[k - 1];
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

@@ -13,4 +13,8 @@ rl.on('line', function (line) {
 }).on('close',function(){
     str = input[0];
     console.log(str);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

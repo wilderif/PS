@@ -17,4 +17,8 @@ const gcd = (num1, num2) => {
         return num1;
     }
     return gcd(num2, num1 % num2);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

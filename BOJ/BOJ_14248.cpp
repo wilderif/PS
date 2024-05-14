@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 // BOJ_14248
 // 점프 점프
 
+=======
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
 #include <iostream>
 #include <vector>
 #include <map>
@@ -20,8 +23,13 @@ int main() {
     int n = 0, start = 0, res = 0;
     cin >> n;
 
+<<<<<<< HEAD
     vector<vector<int>> arr(n + 1, vector<int> (2, 0));
     vector<int> stack;
+=======
+    vector <vector <int>> arr(n + 1, vector <int> (2, 0));
+    vector <int> stack;
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
 
     for (int i = 0; i < n; ++i) {
         int tmp;
@@ -57,4 +65,8 @@ int main() {
     cout << res;
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

@@ -13,4 +13,8 @@ rl.on('line', function (line) {
 }).on('close', function () {
     console.log(`a = ${Number(input[0])}`);
     console.log(`b = ${Number(input[1])}`);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
