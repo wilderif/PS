@@ -1,3 +1,6 @@
+# BOJ_1202
+# 보석 도둑
+
 import sys
 import heapq
 
