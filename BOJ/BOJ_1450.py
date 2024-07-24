@@ -16,10 +16,6 @@ def find_sum(arr):
     return ret
 
 
-def binary_search(arr, target):
-    return bisect.bisect_left(arr, target)
-
-
 def main():
     n, c = map(int, inp().split())
     arr = list(map(int, inp().split()))
