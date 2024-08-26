@@ -15,21 +15,25 @@ def main():
         print(0)
         return
     elif a2 == c:
-        if -a1 * n - a0 <= 0:
-            print(1)
+        if -a1 * n - a0 > 0:
+            print(0)
             return
-        print(0)
+        elif -a1 * n - a0 == 0:
+            if -a1 * (n + 1) - a0 > 0:
+                print(0)
+                return
     else:
         v = a1 / (2 * (c - a2))
         if v <= n:
-            if (c - a2) * n ** 2 - a1 * n - a0 <= 0:
-                print(1)
+            if (c - a2) * n ** 2 - a1 * n - a0 > 0:
+                print(0)
                 return
         else:
-            if (c - a2) * v ** 2 - a1 * v - a0 <= 0:
-                print(1)
+            if (c - a2) * v ** 2 - a1 * v - a0 > 0:
+                print(0)
                 return
-        print(0)
+    
+    print(1)
 
 
 if __name__ == "__main__":
