@@ -73,8 +73,6 @@ function solution(babbling) {
     if (check(s)) {
       res++;
     }
-    console.log(check(s));
-    console.log();
   }
 
   return res;
