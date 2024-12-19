@@ -26,11 +26,7 @@ def solution():
     # n // 2
     # n // 2 - 1
     # 둘의 평균을 사용하는 것이 결국 시그마 결과는 같음
-<<<<<<< HEAD
-
-=======
     
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
     # x_med = 0
     # y_med = 0
     # if n % 2 == 1:
@@ -42,10 +38,6 @@ def solution():
     x_med = x_arr[n // 2]
     y_med = y_arr[n // 2]
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
     res = 0
     for i in range(n):
         res += abs(x_arr[i] - x_med)

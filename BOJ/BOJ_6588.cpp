@@ -23,22 +23,14 @@ int main() {
     }
 
     while (true) {
-<<<<<<< HEAD
-        uint64_t n = 0;
-=======
         uint32_t n = 0;
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
         cin >> n;
 
         if (!n) {
             break;
         }
 
-<<<<<<< HEAD
-        uint64_t idx1 = 3, idx2 = n;
-=======
         uint32_t idx1 = 3, idx2 = n;
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
         while (true) {
             while (!arr[idx1]) {
                 idx1++;
@@ -64,8 +56,4 @@ int main() {
     }
 
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

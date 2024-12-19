@@ -1,9 +1,6 @@
 # BOJ_2174
 # 로봇 시뮬레이션
-<<<<<<< HEAD
 
-=======
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
 import sys
 
 

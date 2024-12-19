@@ -9,11 +9,7 @@
 
 using namespace std;
 
-<<<<<<< HEAD
-bool desc(const uint64_t& a, const uint64_t& b) {
-=======
 bool desc(const uint32_t& a, const uint32_t& b) {
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
     return a > b;
 }
 
@@ -21,25 +17,15 @@ int main() {
 	ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
-<<<<<<< HEAD
-    uint64_t n, m, res = 0;
-    cin >> n;
-    vector<uint64_t> arr_1(n);
-=======
     uint32_t n, m, res = 0;
     cin >> n;
     vector<uint32_t> arr_1(n);
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
     for (int i = 0; i < n; ++i) {
         cin >> arr_1[i];
     }
 
     cin >> m;
-<<<<<<< HEAD
-    vector<uint64_t> arr_2(m);
-=======
     vector<uint32_t> arr_2(m);
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
     for (int i = 0; i < m; ++i) {
         cin >> arr_2[i];
     }
@@ -67,8 +53,4 @@ int main() {
     cout << res;
 
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

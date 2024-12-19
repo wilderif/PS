@@ -34,8 +34,4 @@ int main() {
     cout << set_a.size() + set_b.size() - 2 * common_element_count;
     
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

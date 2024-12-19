@@ -51,8 +51,4 @@ while j_queue:
                 j_queue.append((nx, ny, time + 1))
 
 # if not j_queue:
-<<<<<<< HEAD
 print("IMPOSSIBLE")
-=======
-print("IMPOSSIBLE")
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

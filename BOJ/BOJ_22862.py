@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-# BOJ_22857
-# 가장 긴 짝수 연속한 부분 수열 (small)
-=======
 # BOJ_22862
 # 가장 긴 짝수 연속한 부분 수열 (large)
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
 
 import sys
 

@@ -18,20 +18,12 @@ int main() {
 	ios_base::sync_with_stdio(false);
 
     int k, n;
-<<<<<<< HEAD
-    uint64_t biggest = 0;
-=======
     uint32_t biggest = 0;
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
     cin >> k >> n;
     vector<string> arr;
     
     string tmp;
-<<<<<<< HEAD
-    uint64_t int_tmp;
-=======
     uint32_t int_tmp;
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
     for (int i = 0; i < k; ++i) {
         cin >> tmp;
         int_tmp = stoi(tmp);
@@ -50,8 +42,4 @@ int main() {
     }
       
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
