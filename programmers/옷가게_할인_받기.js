@@ -1,20 +1,16 @@
 // 옷가게_할인_받기
 
 function solution(price) {
-    var answer = 0;
-    if (price >= 500000) {
-        answer = price * 0.8;
-    } else if (price >= 300000) {
-        answer = price * 0.9;
-    } else if (price >= 100000) {
-        answer = price * 0.95;
-    } else {
-        answer = price;
-    }
+  var answer = 0;
+  if (price >= 500000) {
+    answer = price * 0.8;
+  } else if (price >= 300000) {
+    answer = price * 0.9;
+  } else if (price >= 100000) {
+    answer = price * 0.95;
+  } else {
+    answer = price;
+  }
 
-    return Math.floor(answer);
-<<<<<<< HEAD
+  return Math.floor(answer);
 }
-=======
-}
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac

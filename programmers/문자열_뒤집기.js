@@ -1,13 +1,9 @@
 // 문자열_뒤집기
 
 function solution(my_string) {
-    var answer = '';
-    for (var i = my_string.length - 1; i >= 0; i--) {
-        answer += my_string[i];
-    }
-    return answer;
-<<<<<<< HEAD
+  var answer = "";
+  for (var i = my_string.length - 1; i >= 0; i--) {
+    answer += my_string[i];
+  }
+  return answer;
 }
-=======
-}
->>>>>>> 5ae11d8804eca0ee95680c2228111cdb04fcc3ac
