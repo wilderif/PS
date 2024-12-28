@@ -90,13 +90,7 @@ function solution(inputArr) {
       move(tmpBoard, val);
     });
 
-    tmpBoard.forEach((row) => {
-      row.forEach((val) => {
-        if (val > res) {
-          res = val;
-        }
-      });
-    });
+    res = Math.max(res, ...tmpBoard.flat());
   };
 
   const backtracking = (idx) => {
