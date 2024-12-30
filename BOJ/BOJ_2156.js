@@ -9,11 +9,7 @@ const input = fs.readFileSync(filePath, 'utf-8').trim().split('\n');
 
 function solution(inputArr) {
   const n = Number(inputArr[0]);
-  const arr = [];
-
-  for (let i = 1; i <= n; i++) {
-    arr.push(Number(inputArr[i]));
-  }
+  const arr = inputArr.slice(1).map(Number);
 
   if (n === 1) {
     return arr[0];
@@ -22,7 +18,7 @@ function solution(inputArr) {
     return arr[0] + arr[1];
   }
 
-  const mem = new Array(n);
+  const mem = new Array(n).fill(0);
   mem[0] = arr[0];
   mem[1] = arr[0] + arr[1];
   mem[2] = Math.max(arr[0] + arr[1], arr[0] + arr[2], arr[1] + arr[2]);
