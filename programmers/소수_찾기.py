@@ -20,7 +20,6 @@ def solution(numbers: str):
     prime_set = set()
 
     def backtrack(cur):
-        print(cur)
         if cur:
             tmp = int(cur)
             if prime[tmp]:
